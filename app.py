@@ -4,8 +4,7 @@ import os
 
 client = InferenceClient(
     "mistralai/Mistral-7B-Instruct-v0.2",
-    token=os.environ.get("HF_TOKEN"),
-    provider="together"
+    token=os.environ.get("HF_TOKEN")
 )
 
 
